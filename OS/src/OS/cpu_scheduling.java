@@ -222,7 +222,7 @@ public class cpu_scheduling{
 				return s+"SJF Preemptive\nOrder of execution: "+str1+"AWT: "+awt;
 
 	}
-	public static String SjfNonPreemptive(int[][] a,int n)
+	public static String SjfNonPreemptive(int[][] a,int n) #implemented by Yash Srivastava
 	{
 		for(int i=0;i<n;i++)
 		{
@@ -285,7 +285,7 @@ public class cpu_scheduling{
 		return "The average waiting time for SJF-Non-Preemptive is "+final1;
 	}
 	
-	public static String PriorityNonPreemptive(int[][] A,int n)
+	public static String PriorityNonPreemptive(int[][] A,int n) #implemented by Yash Srivastava
 	{
 		String s ="";
 		int timep,total=0,waiting=0,remainprocesses=n,highpriority,i;
